@@ -1,10 +1,17 @@
 ﻿
-Console.WriteLine("hallo Daniele");
+using System.ComponentModel;
+using System.Dynamic;
+
+Console.WriteLine("._.");
 Console.WriteLine("._.");
 
-string vorname = "daniele";
-string nachname = "ferrigno";
-string alter = "16";
-string klasse = "FOI21";
+Console.WriteLine("Gib dein name ein");
+string Vorname = Console.ReadLine();
 
-Console.WriteLine("",vorname,"e ist ",alter," jahre alt und besucht die ",klasse," des Georg-Simon_Ohm");
+Console.WriteLine("dein Alter");
+string Alter = Console.ReadLine();
+
+Console.WriteLine("Deine klasse");
+string Klasse = Console.ReadLine();
+
+Console.WriteLine("hallo "+Vorname+", ist "+Alter+",jahre alt und besucht die"+Klasse+",des Georg-Simon_Ohm");
