@@ -29,16 +29,18 @@ Console.WriteLine(sizeof(decimal));
 
 string vorname = "Daniele";
 short alter = 16;
-bool frage = true;
+Console.WriteLine(vorname + "\n" + alter);
 
 
 
 
 int dollarzahl = 36;
 char dollar = (char)dollarzahl;
+Console.WriteLine("char(" + dollarzahl + ")is" + dollar);
 
 
 
 
-
+Console.WriteLine("give double");
+double number = double.Parse(Console.ReadLine());
 
